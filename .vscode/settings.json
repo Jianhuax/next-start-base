@@ -1,16 +1,16 @@
 {
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "always",
-    "source.organizeImports": "always"
-  },
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "workbench.editor.customLabels.patterns": {
-    "**/app/**/page.tsx": "${dirname}.${extname}",
-    "**/app/**/layout.tsx": "${dirname}/layout.${extname}",
-    "**/app/**/components.tsx": "${dirname}/layout.${extname}",
-  }
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "always"
+	},
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"workbench.editor.customLabels.patterns": {
+		"**/app/**/page.tsx": "${dirname}.${extname}",
+		"**/app/**/layout.tsx": "${dirname}/layout.${extname}",
+		"**/app/**/components.tsx": "${dirname}/layout.${extname}",
+		"**/app/**/sections.tsx": "${dirname}/sections.${extname}"
+	}
 }
